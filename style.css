@@ -1,0 +1,99 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* Formulaire */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #165ec9;
+}
+
+/* Liens */
+.forgot-link {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Bouton créer un compte */
+.create-btn {
+	margin-top: 10px;
+    background-color: #42b72a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 15px;
+    }
+    .logo {
+        width: 150px;
+    }
+}
